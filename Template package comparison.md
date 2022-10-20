@@ -9,60 +9,64 @@
    - Admin Portal
 
 
-POSSIBLE
-Velzon
-Rich features.
-Could be tighter.
-   
-
-MAYBE
-Minia
- - Nice dark
- - Dynamic Switch CSS
- - A bit light in options
-Fuse
- - Tailwind
- - 2nd top seller
- 
-Skote
-- Clean. But a bit baby?
-- Bootstrap
-- Dark/light
-
-Vex
-- blocky
+### Maybe
+- Material Dashboard
+  - https://www.creative-tim.com/product/material-dashboard-pro-angular2
+- Velzon
+  - Rich features.
+  - Could be tighter.
+- Fuse
+  - Tailwind
+  - 2nd top seller
+- Skote
+  - Clean. But a bit baby?
+  - Maybe too clean (white on white)
+  - Bootstrap
+  - Dark/light
+- Vex
+  - blocky
   - material based
-
-Mashable
+- Mashable
  - but demo didn't work....
 
-USEFUL PILFER:
-Azimuth
-- Aged. Dull.
-  Too Busy Containers (-+X)
-  Good code
-Metronix
-HUD
+### Undecided
+- Adminto
+  - Angular 13
+
+
+
+### To Pilfer/Learn from
+- Azimuth
+  - Aged. Dull.
+  - Too Busy Containers (-+X)
+  - Good code
+- Metronix
+- HUD
   - Excellent...just limiting style.
 
-NO:
-CoreUI
+### NO
+- Minia
+  - Nice dark
+  - Dynamic Switch CSS (maybe learn from)
+  - A bit light in options
+  - Too...simple
+- CoreUI
  - too few /simple
-Metronic 
+-Metronic 
  - too simple (yet it sells very well)
-Lorax
+- Lorax
   - garish.
   - failed to render correctly in mobile (menu overlay was clunk)
-Cork
-Dashlite
+- Cork
+- Dashlite
  - not angular
-Porto
+- Porto
  - too ...blockish
-Decima
+- Decima
  - too primitive
-Philbert
+- Philbert
   - too old
-Egret
+- Egret
   - Ugly
-Apex
+- Apex
  - Ugly
