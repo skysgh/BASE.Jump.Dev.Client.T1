@@ -1,12 +1,15 @@
 
 
-- Themes
- - Desired Features:
-   - Multilingual
-   - Multitheme
-   - Nested Routing
-   - AoT/Download
-   - Admin Portal
+## Desired Qualities & Features
+- Multilingual
+- Nested Routing
+- AoT/Download
+- Variable based theme
+  - preferably dynamic?
+- Multitheme
+  - Dynamic switching of theme
+- Admin Portal
+
 
 
 ### Maybe
