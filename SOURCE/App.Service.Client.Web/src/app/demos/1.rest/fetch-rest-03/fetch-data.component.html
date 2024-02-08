@@ -1,0 +1,18 @@
+<h2 id="tableLabel">DTO Retrieval, using REST, from (UnReferenced) Module's Presentation Layer</h2>
+
+<p *ngIf="!responseData"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="responseData">
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of responseData">
+      <td>{{ item.text }}</td>
+      <td><code>{{ item.description }}</code></td>
+    </tr>
+  </tbody>
+</table>

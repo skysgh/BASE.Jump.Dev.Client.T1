@@ -1,0 +1,60 @@
+<h2>Objective</h2>
+A PoC of a hotswappable plugin based compiled service architecture
+to back SPA based development.
+
+<h4>PoC Desired Qualities</h4>
+<ul>
+  <li>
+    Lower cost of development:
+    <ul>
+      <li>guardrailing into working in business-specific Logical Modules, rather than all over the plumbing too.</li>
+      <li>lower error/investigation/redo rate by using an Dependency Injection + ORM (EF) based development style.</li>
+      <li>reusable base covering system concerns, capable of handling multiple focused business cases on top of it.</li>
+    </ul>
+  <li>
+    Increase modularity:
+    <ul>
+      <li>Modularity by plugin architecture for Plugins(Calculators), Logical Capability Modules(People,Commerce,etc.), Environments (Azure/AWS).</li>
+      <li>While making plugins hot-swappable (a *very* hard task in .NET in general, compounded by being in a multi-user environment.)</li>
+      <li>While keeping security high (limiting access to specific core services).</li>
+      <li>While keeping development cost low (keeping service discoverability and injection).</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>PoC Discovery Tasks</h4>
+<ul>
+  <li><strong><code>[x]</code></strong> Usability: Lower the entry bar by using a recognisable ASP.Core standard template</li>
+  <li><strong><code>[x]</code></strong> Replace the standard <code>IServiceProvider</code> with a more performance library (<code>Lamar</code>) capable of discovery by Reflection.</li>
+  <li><strong><code>[x]</code></strong> Modularity: Register Controllers by Reflection irrespective of whether Referenced directly in solution, or in a well-known ("MODULES") directory.</li>
+  <li><strong><code>[x]</code></strong> Discoverability: Ensure Controllers are OpenAPI discoverable.</li>
+  <li><strong><code>[ ]</code></strong> Security: Provide transparent object mapping between internal entities and DTOs.</li>
+  <li><strong><code>[ ]</code></strong> Maintainability: use of CodeFirst Object Definitions, by Reflection.</li>
+  <li><strong><code>[ ]</code></strong> Intergratability: Ensure Controllers are OData capable.</li>
+  <li><strong><code>[ ]</code></strong> Intergratability: Ensure Controllers are OpenAPI *and* OData capable.</li>
+  <li><strong><code>[ ]</code></strong> Deployability: ensure Schemas can be developed from <code>Powershell</code> (Desktop or Pipeline) as well.</li>
+  <li><strong><code>[ ]</code></strong> Deployability: ensure Schemas are separate yet can coexist (<code>DDD</code> at the EF managed Data level too).</li>
+  <li><strong><code>[ ]</code></strong> Configurability: Ensure modules are droppable/replaceable (in-mem AppDomain, other).</li>
+  <li><strong><code>[ ]</code></strong> Configurability: Portable *secure* configuration.</li>
+  <li><strong><code>[ ]</code></strong> Caching: Weave it in as a default.</li>
+  <li><strong><code>[ ]</code></strong> Usability: Only then work on the UX, consuming Apis.</li>
+  <li><strong><code>[ ]</code></strong> Deployability: Develop Infrastructure as Code.</li>
+  <li><strong><code>[ ]</code></strong> Deployability: Wrap with Pipeline as Code.</li>
+  <li><strong><code>[ ]</code></strong> Productivity: Wrap with Development Environment as Code (Kanban).</li>
+</ul>
+
+<h2>Errata</h2>
+<p>Built with:</p>
+<ul>
+  <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
+  <li><a href='https://angular.io/'>Angular</a> and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>
+  <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
+</ul>
+<p>Using:</p>
+<ul>
+  <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
+  <li><strong>Angular CLI integration</strong>. In development mode, there's no need to run <code>ng serve</code>. It runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
+  <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration automatically invokes <code>ng build</code> to produce minified, ahead-of-time compiled JavaScript files.</li>
+</ul>
+
+<p>The <code>ClientApp</code> subdirectory is a standard Angular CLI application. If you open a command prompt in that directory, you can run any <code>ng</code> command (e.g., <code>ng test</code>), or use <code>npm</code> to install extra packages into it.</p>

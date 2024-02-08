@@ -1,0 +1,200 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.45-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <!-- Command to run on project build -->
+    <BuildCommand>
+    </BuildCommand>
+    <!-- Command to create an optimized build of the project that's ready for publishing -->
+    <ProductionBuildCommand>npm run build</ProductionBuildCommand>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\App.Base.Client.Web</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\08516a2c5be6e3449676a5e218e3c29cac7c84d1\0.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\08516a2c5be6e3449676a5e218e3c29cac7c84d1\index.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\0.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\1.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\10.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\11.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\12.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\13.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\14.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\15.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\16.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\17.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\2.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\3.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\4.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\5.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\6.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\7.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\8.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\9.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\index.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\34036263c0b5ba618075eec20ffd809c77b496c0\index.pack.old" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\5594bd64c194e17389a6db1e761f5deb45efad51\0.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\5594bd64c194e17389a6db1e761f5deb45efad51\index.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\e31507c101ff1b708fe68990ec192b135bf5ff6f\0.pack" />
+    <None Include="Other\ClientApp\.angular\cache\angular-webpack\e31507c101ff1b708fe68990ec192b135bf5ff6f\index.pack" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\18cc4ed17ed65290b2ffd7b75c728f62.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\26741bb188d4d56b63c6672711663cfa.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\27d566da7fa781a296cce5db0ba2dca7.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\359dc0eb6290fb43b7a5ccb173f83aa2.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\54da410bb1a48e1e84922762722ff576.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\56440e3dd7f91f9aea38643ce3970063.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\6a441feecba199411f5f04796b3c1ebc.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\79bf574b7d417451fcb7281b46ba706f.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\8043adbd22a50d782feb65d93543e5cd.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\9795184716d1f706adffbcbeba65a389.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\a7900cb7a1346d3c019446b2e498a6c8.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\d15301cc24d4c4914e9a54fdf255d92d.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\e1367a8b7ee5a2b3ecba3e6e5ef10d65.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\e3710709993cd145e3c0f202d6428e79.json" />
+    <None Include="Other\ClientApp\.angular\cache\babel-webpack\f035130c7321cf9219bbc8b367d5a467.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="Other\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\tsconfig.spec.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\tsconfig.app.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\test.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\styles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\polyfills.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\main.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\environments\environment.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\environments\environment.prod.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\assets\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\nav-menu\nav-menu.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\nav-menu\nav-menu.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\nav-menu\nav-menu.component.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\home\home.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\home\home.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\2.odata\fetch-odata-03\fetch-data.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\2.odata\fetch-odata-03\fetch-data.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\2.odata\fetch-odata-02\fetch-data.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\2.odata\fetch-odata-02\fetch-data.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\2.odata\fetch-odata-01\fetch-data.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\2.odata\fetch-odata-01\fetch-data.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\1.rest\fetch-rest-03\fetch-data.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\1.rest\fetch-rest-03\fetch-data.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\1.rest\fetch-rest-02\fetch-data.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\1.rest\fetch-rest-02\fetch-data.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\1.rest\fetch-rest-01\fetch-data.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\demos\1.rest\fetch-rest-01\fetch-data.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\counter\counter.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\counter\counter.component.spec.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\counter\counter.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\app.server.module.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\app.module.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\app.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\src\app\app.component.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\proxy.conf.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\package-lock.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\karma.conf.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\aspnetcore-https.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\angular.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Other\ClientApp\.browserslistrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="Other\ClientApp\tsconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\app\" />
+  </ItemGroup>
+</Project>
